@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.content,
+.content-4,
+.content-5 {
+    width: 50%;
+    margin: 0 auto; 
+    align-items: center;
+    margin: auto;
+    width: 33%;
+}
+
+.content-2,
+.content-3,
+.content-6 {
+    width: 50%;
+}
+

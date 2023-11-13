@@ -1,0 +1,71 @@
+footer {
+    background-color: $maincolor;
+    padding: 20px 0;
+    margin-bottom: 40px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+    .navigacija {
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start;
+  
+        .footer-list-container {
+            margin-bottom: 10px; /* Add some spacing between the list and the text */
+        }
+  
+        .footer-list {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+  
+            .list-item {
+                display: inline-block;
+                margin-right: 10px;
+  
+                &:last-child {
+                    margin-right: 0;
+                }
+  
+                a {
+                    text-decoration: none;
+                    color: $blue;
+                }
+            }
+        }
+    }
+  
+    .zenkliukai {
+        display: flex;
+        align-items: center;
+  
+        .list-inline {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+  
+            .list-inline-item {
+                margin-right: 10px;
+  
+                &:last-child {
+                    margin-right: 0;
+                }
+  
+                a {
+                    text-decoration: none;
+                    color: $blue;
+                }
+            }
+        }
+    }
+  }

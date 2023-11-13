@@ -1,0 +1,23 @@
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 1200px;
+    margin: 100px auto;
+    gap: 20px;
+    line-height: 1.7;
+    background: #f8f9fa;
+
+    .pirmas {
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .pirmas:hover {
+        font-size: 105%;
+    }
+}
+  

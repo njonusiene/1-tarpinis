@@ -1,0 +1,89 @@
+$sea: url(../images/bg-masthead.jpg);
+
+form {
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.form {
+    text-align: center;
+    padding: 50px;
+    margin: 50px auto; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    display: block;
+    padding-top: 45px;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+  
+.form-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.113), rgba(0, 0, 0, 0.5)), $sea center center/cover; 
+    z-index: -1;
+    border: 0;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0;
+    width: 30%;
+    line-height: 0.8em;
+    margin-bottom: 50px;
+}
+
+.sign {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+  
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+}
+.form-container1 {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    align-items: center;
+    padding-top: 5px;
+  }
+  
+  .form-container1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.113), rgba(0, 0, 0, 0.5)), $sea center center/cover; 
+    z-index: -1;
+    border: 0;
+  }
+  
+  .form1 {
+    text-align: center;
+    padding: 50px;
+    margin: 50px auto; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    h1 {
+      line-height: 0.6em;
+      font-size: 1.5em;;
+    }
+  }
