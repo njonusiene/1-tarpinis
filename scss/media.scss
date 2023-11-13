@@ -6,6 +6,7 @@
     div.form, 
     .form1 {
         margin-top: 50px; 
+        padding: 10px 10px;
         input {
             width: 100%;
             font-size: 1.5em;
@@ -130,12 +131,12 @@
         flex-wrap: wrap;
         justify-content: center;
         margin: 15px;
-        gap: 15px;
+        gap: 10px;
     }
 }
 
 .text {
-    padding: 15px 15px;
+    padding: 10px 10px;
 }
     
     
