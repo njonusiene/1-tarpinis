@@ -3,21 +3,41 @@
         max-width: 100%; 
       }
 
-    div.form {
+    div.form, 
+    .form1 {
         margin-top: 50px; 
         input {
             width: 100%;
+            font-size: 1.5em;
         }  
     }
 
-    .form-container {
-        font-size: 0.6rem;
+    .form-container,
+    .form-container1 {
+        font-size: 0.8rem;
         padding: 5px 0;   
     }
 
     form {
         display: flex;
         flex-direction: column;
+
+        input {
+            height: 50px;
+            margin-bottom: 15px;
+            margin-left: 0;
+        }
+        button {
+            height: 50px;
+            margin-bottom: 15px;
+            margin-left: 0;
+            font-size: 20px;
+        }
+    }
+
+    .form1 h1 {
+        font-size: 1.9rem;
+        line-height: 1.1;
     }
 
     h1 {
@@ -75,7 +95,6 @@
         .content-6 {
             width: 100%;
             margin: 0 auto;
-            padding: 20px; // Adjust the padding as needed
 
             img {
                 width: 100%;
@@ -83,24 +102,41 @@
             }
 
             h2 {
-                font-size: 1.5em; // Adjust the font size as needed
-                margin-bottom: 10px;
+                font-size: 2.5em; // Adjust the font size as needed
+                margin: 0 50px;
             }
 
             p {
-                font-size: 1em; // Adjust the font size as needed
-                margin-bottom: 20px;
+                font-size: 1.1em;
+                margin: 50px;
+                line-height: 1.7;
             }
         }
     }
 
+    section h2 {
+        font-size: 2em;
+        line-height: 1.2;
+    }
 
-    footer {
+    .footer-content {
         display: flex;
         flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .footer-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 15px;
+        gap: 15px;
     }
 }
 
+.text {
+    padding: 15px 15px;
+}
     
     
     
