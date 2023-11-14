@@ -6,18 +6,32 @@ article {
     padding-left: 10%;
     padding-right: 10%;
     max-width: 1200px;
-    margin: 100px auto;
-    gap: 20px;
-    line-height: 1.7;
+    margin: 120px auto;
+    gap: 25px;
     background: #f8f9fa;
+
+    h2 {
+        padding-top:25px;
+        padding-bottom: 15px;
+    }
 
     .pirmas {
         transition: 0.3s;
         cursor: pointer;
-    }
 
-    .pirmas:hover {
-        font-size: 105%;
+        &:hover {
+            font-size: 105%;
+            background-color: white;
+            color: $blue;
+        }
     }
 }
+
+div.pirmas {
+    i {
+        font-size: 60px;
+        color: $blue;
+    }
+}
+
   
